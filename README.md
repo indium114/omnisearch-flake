@@ -33,11 +33,13 @@ You can also configure OmniSearch through this module.
 ```nix
 {
   services.omnisearch = {
-    enable = true;      # enable the service
-    configFile = null;  # specify a config file to use. (e.g. /srv/omnisearch.ini)
-    settings = {        # configure omnisearch
-      host = "0.0.0.0"; # specify the host address
-      port = 8087;      # specify the port to listen on
+    enable = true;        # enable the service
+    configFile = null;    # specify a config file to use. (e.g. /srv/omnisearch.ini)
+    settings = {          # configure omnisearch
+      server = {          # server settings
+        host = "0.0.0.0"; # specify the host address
+        port = 8087;      # specify the port to listen on
+      };
     }
   };
 }
