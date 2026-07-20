@@ -1,0 +1,32 @@
+name: Update flake.lock
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: cachix/install-nix-action@v31
+
+      - name: Update flake.lock
+        run: nix flake update
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: "chore(flake.lock): update flake lock"
+          title: "chore(flake.lock): update flake lock"
+          body: |
+            Automated `nix flake update`.
+          branch: ci/update-flake-lock
+          delete-branch: true
