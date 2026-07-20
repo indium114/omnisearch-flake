@@ -16,7 +16,7 @@
       self,
       nixpkgs,
       beaker-src,
-      omnisearch-src
+      omnisearch-src,
     }:
     let
       supportedSystems = [
