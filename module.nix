@@ -35,6 +35,10 @@ let
         dir = ${cfg.settings.cache.dir}
         ttl_search = ${toString cfg.settings.cache.ttl_search}
         ttl_infobox = ${toString cfg.settings.cache.ttl_infobox}
+
+        [engines]
+        engines = ${cfg.settings.engines.engines}
+        ${lib.optionalString (cfg.settings.engines.yacy_instance != null) "yacy_instance = ${cfg.settings.engines.yacy_instance}"}
       '';
 in
 {
@@ -106,6 +110,16 @@ in
         ttl_infobox = lib.mkOption {
           type = lib.types.int;
           default = 86400;
+        };
+      };
+      engines = {
+        engines = lib.mkOption {
+          type = lib.types.str;
+          default = "*";
+        };
+        yacy_instance = lib.mkOption {
+          type = lib.types.nullOr lib.types.str;
+          default = null;
         };
       };
     };
