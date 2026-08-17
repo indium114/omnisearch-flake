@@ -37,11 +37,11 @@
     "omnisearch-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1785819301,
-        "narHash": "sha256-+GmvM4UfvyYplB5t4yOOmaNAiZJnEWp5mDfr4BXWJ3Y=",
+        "lastModified": 1786938343,
+        "narHash": "sha256-wGgvq7gnrwS10wMz4nJjGE95GXnmhkBPxKRQeTGwJWc=",
         "ref": "refs/heads/master",
-        "rev": "499bb9b1268cd422619efdc46889960425462aae",
-        "revCount": 136,
+        "rev": "e352971bc59c356886f57d97d01ce195c3b0d952",
+        "revCount": 150,
         "shallow": false,
         "type": "git",
         "url": "https://git.bwaaa.monster/omnisearch"
