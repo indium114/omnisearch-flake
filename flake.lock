@@ -3,11 +3,11 @@
     "beaker-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1780436704,
-        "narHash": "sha256-3aMH1YblnpiXKdkQVMRLmMZ5/8G7vB4HAfLg7+izyHg=",
+        "lastModified": 1786917319,
+        "narHash": "sha256-4+UWuicypc7wEuLGwY1N372X1JF162DPSbjssZlfhhY=",
         "ref": "refs/heads/master",
-        "rev": "360d6271e1a20d128430e52637d5d35f4c706ca5",
-        "revCount": 34,
+        "rev": "acdd9e754a536d542099951e4c9a6acc8cdf1c51",
+        "revCount": 45,
         "shallow": false,
         "type": "git",
         "url": "https://git.bwaaa.monster/beaker"
@@ -20,11 +20,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1786106723,
-        "narHash": "sha256-zDSUbpoeo/9ZmD2+wXnzxoo1+uhL8vxc0b8yuYMKYq0=",
+        "lastModified": 1786862985,
+        "narHash": "sha256-FBJRXmbGXiSUDvYEbfLYRkckayyZ6SK1UEqhCrIZ2Cs=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "f13ff45afd1bb73e640eaa08a7066dbed07e3238",
+        "rev": "e5bdc4a41d4c072fe1e3787eaa0320a384741d44",
         "type": "github"
       },
       "original": {
