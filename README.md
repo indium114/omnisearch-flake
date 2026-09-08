@@ -1,6 +1,6 @@
 # omnisearch-flake
 
-This is a Nix flake for [OmniSearch](https://git.bwaaa.monster/omnisearch/about), as the official one in the repo seems to not be maintained anymore.
+This is a Nix flake for [OmniSearch](https://git.bwaaa.monster/omnisearch/about), as the official one was removed from the repo.
 
 ## setup
 
