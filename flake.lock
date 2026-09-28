@@ -8,14 +8,12 @@
         "ref": "refs/heads/master",
         "rev": "acdd9e754a536d542099951e4c9a6acc8cdf1c51",
         "revCount": 45,
-        "shallow": false,
         "type": "git",
-        "url": "https://git.bwaaa.monster/beaker"
+        "url": "https://codeberg.org/indium114/beaker-mirror"
       },
       "original": {
-        "shallow": false,
         "type": "git",
-        "url": "https://git.bwaaa.monster/beaker"
+        "url": "https://codeberg.org/indium114/beaker-mirror"
       }
     },
     "nixpkgs": {
@@ -42,14 +40,12 @@
         "ref": "refs/heads/master",
         "rev": "892acdc7f26df93735e0098ce62159571b31eb02",
         "revCount": 152,
-        "shallow": false,
         "type": "git",
-        "url": "https://git.bwaaa.monster/omnisearch"
+        "url": "https://codeberg.org/indium114/omnisearch-mirror"
       },
       "original": {
-        "shallow": false,
         "type": "git",
-        "url": "https://git.bwaaa.monster/omnisearch"
+        "url": "https://codeberg.org/indium114/omnisearch-mirror"
       }
     },
     "root": {
