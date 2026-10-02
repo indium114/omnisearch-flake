@@ -2,11 +2,11 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     beaker-src = {
-      url = "git+https://codeberg.org/indium114/beaker-mirror";
+      url = "git+https://git.bwaaa.space/beaker?shallow=0";
       flake = false;
     };
     omnisearch-src = {
-      url = "git+https://codeberg.org/indium114/omnisearch-mirror";
+      url = "git+https://git.bwaaa.space/omnisearch?shallow=0";
       flake = false;
     };
   };

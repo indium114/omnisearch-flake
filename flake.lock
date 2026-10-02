@@ -3,17 +3,19 @@
     "beaker-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1786917319,
-        "narHash": "sha256-4+UWuicypc7wEuLGwY1N372X1JF162DPSbjssZlfhhY=",
+        "lastModified": 1790704008,
+        "narHash": "sha256-Al/BE7uVRSmUGF/t1m0pWxF9jNgzdCVUrc5ZHkcPiQg=",
         "ref": "refs/heads/master",
-        "rev": "acdd9e754a536d542099951e4c9a6acc8cdf1c51",
-        "revCount": 45,
+        "rev": "10be7f581fb828e74f064ea7ad4fb0534ee8540a",
+        "revCount": 46,
+        "shallow": false,
         "type": "git",
-        "url": "https://codeberg.org/indium114/beaker-mirror"
+        "url": "https://git.bwaaa.space/beaker"
       },
       "original": {
+        "shallow": false,
         "type": "git",
-        "url": "https://codeberg.org/indium114/beaker-mirror"
+        "url": "https://git.bwaaa.space/beaker"
       }
     },
     "nixpkgs": {
@@ -35,17 +37,19 @@
     "omnisearch-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1788494360,
-        "narHash": "sha256-OwKY25VZz7P9T7pQfC3lgqk1UR85K0hpc7NnBt4uEKo=",
+        "lastModified": 1790703874,
+        "narHash": "sha256-XxQcmiqlOwYU0CloQe0s+SGKkmULjSAVeL8IYOMyKlA=",
         "ref": "refs/heads/master",
-        "rev": "892acdc7f26df93735e0098ce62159571b31eb02",
-        "revCount": 152,
+        "rev": "a17f0238213ffb24a183117148252b1c60a8514c",
+        "revCount": 156,
+        "shallow": false,
         "type": "git",
-        "url": "https://codeberg.org/indium114/omnisearch-mirror"
+        "url": "https://git.bwaaa.space/omnisearch"
       },
       "original": {
+        "shallow": false,
         "type": "git",
-        "url": "https://codeberg.org/indium114/omnisearch-mirror"
+        "url": "https://git.bwaaa.space/omnisearch"
       }
     },
     "root": {
