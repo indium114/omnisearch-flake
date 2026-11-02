@@ -20,11 +20,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1792773339,
-        "narHash": "sha256-rZLrzrC6i+jnTAlvPZHogKDulY7WWDEv9hJeHieO7Zw=",
+        "lastModified": 1793540411,
+        "narHash": "sha256-fiPJ88izTVucjeo2EQ3jk4aWmLg03I1D4vxnX2QjEgE=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "3ec636362e1816bc2f0888fa0fa2c69f1bc9e504",
+        "rev": "0bb2eedc20e4739f29e8045034f2828ad7054f8f",
         "type": "github"
       },
       "original": {
@@ -37,11 +37,11 @@
     "omnisearch-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1792954208,
-        "narHash": "sha256-n+5q3q2mMhg7marSHIYGfwsJLLvLBkx2S1kkDyHfVJk=",
+        "lastModified": 1793208626,
+        "narHash": "sha256-gITYhVb4iqAuDusnjCxXQj1FuwO0eVfDbsilQtfidMY=",
         "ref": "indev",
-        "rev": "e5a836e1359bbc06a1c197cd02b1732368928e62",
-        "revCount": 161,
+        "rev": "b8c920ef0a14dcf1165930c9c9490d6df19c1217",
+        "revCount": 165,
         "shallow": false,
         "type": "git",
         "url": "https://git.bwaaa.space/omnisearch"
